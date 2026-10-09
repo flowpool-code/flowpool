@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    "noEmit": true,
+    "baseUrl": "../..",
+    "paths": {
+      "@flowpool/sdk": ["packages/sdk/src"],
+      "@flowpool/sdk/*": ["packages/sdk/src/*"],
+      "@flowpool/types": ["packages/types/src"],
+      "@flowpool/types/*": ["packages/types/src/*"]
+    }
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+}

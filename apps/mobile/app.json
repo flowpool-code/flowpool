@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "FlowPool",
+    "slug": "flowpool-mobile",
+    "scheme": "flowpool",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "social.flowpool.app",
+      "associatedDomains": ["applinks:flowpool.social"]
+    },
+    "android": {
+      "package": "social.flowpool.app"
+    },
+    "plugins": ["expo-router"]
+  }
+}

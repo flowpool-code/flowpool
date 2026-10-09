@@ -1,0 +1,17 @@
+[package]
+name = "flowpool-contracts"
+version = "0.2.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["lib", "cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+proptest = "1.0"
+ed25519-dalek = "2"
